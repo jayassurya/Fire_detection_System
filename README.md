@@ -26,7 +26,7 @@ FireDetectionAI/
 └── README.md 
 
 Download link for fire_dataset
-https://www.kaggle.com/datasets/phylake1337/fire-datasethttps://www.kaggle.com/datasets/phylake1337/fire-dataset
+https://www.kaggle.com/datasets/phylake1337/fire-dataset
 
 How to Use
 1. Clone the Repository
