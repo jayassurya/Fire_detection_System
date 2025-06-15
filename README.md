@@ -23,7 +23,11 @@ FireDetectionAI/
 ├── model_training.py               
 ├── fire_predict.py               
 ├── fire1.jpg,fire2.jpg,fire3.jpg
-└── README.md                    
+└── README.md 
+
+Download link for fire_dataset
+https://www.kaggle.com/datasets/phylake1337/fire-datasethttps://www.kaggle.com/datasets/phylake1337/fire-dataset
+
 How to Use
 1. Clone the Repository
 git clone https://github.com/jayassurya/Fire_Detection_System.git
@@ -32,12 +36,12 @@ cd Fire_Detection_System
 2. Install Dependencies
 pip install tensorflow opencv-python numpy matplotlib
 
-3. Train the Model (Optional)
-python train_model.py
+3. Train the Model 
+python model_training.py
 
 4. Run Fire Detection
-python detect_fire.py
-Note: Place your test image (e.g., fire1.jpg) inside the test_images/ folder and update the image path in the script if necessary.
+python fire_predict.py
+Note: Place your test image (e.g., fire1.jpg) inside the image path in the script if necessary.
 
 Sample Output
 Test Accuracy: 90.25%
